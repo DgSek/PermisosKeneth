@@ -1,0 +1,51 @@
+/* Estilo principal del contenedor */
+.respaldo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .respaldo-container h2 {
+    color: #4a90e2;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  /* Contenedor para los botones */
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Estilo de los botones */
+  .respaldo-button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .commit {
+    background-color: #28a745; /* Verde para el botón Commit */
+  }
+  
+  .commit:hover {
+    background-color: #218838;
+  }
+  
+  .rollback {
+    background-color: #dc3545; /* Rojo para el botón Rollback */
+  }
+  
+  .rollback:hover {
+    background-color: #c82333;
+  }
+  

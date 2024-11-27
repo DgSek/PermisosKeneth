@@ -1,0 +1,48 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .dashboard-content {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .dashboard-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-user-info {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .dashboard-user-info strong {
+    color: #333;
+  }
+  
+  .dashboard-logout {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF4B4B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard-logout:hover {
+    background-color: #E84343;
+  }
+  
