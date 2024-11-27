@@ -205,7 +205,7 @@ const MenuLateral = () => {
         <h3>{tituloReporte}</h3>
 
         <div className="combobox-container">
-          <label htmlFor="empleados-select">Seleccione un empleado:</label>
+          <label htmlFor="empleados-select">Seleccione un empleadoo:</label>
           <select
             id="empleados-select"
             value={empleadoSeleccionado}
